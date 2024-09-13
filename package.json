@@ -1,0 +1,32 @@
+{
+  "name": "membership-nfts",
+  "version": "1.0.0",
+  "author": {
+    "name": "Memetic Block",
+    "email": "info@memeticblock.com",
+    "website": "https://memeticblock.com"
+  },
+  "license": "AGPL-3.0-or-later",
+  "description": "",
+  "scripts": {
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "coverage": "cross-env SOLIDITY_COVERAGE=true hardhat coverage",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "@types/chai": "^4.3.17",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.1.0",
+    "chai": "^4.5.0",
+    "cross-env": "^7.0.3",
+    "hardhat": "^2.22.7",
+    "solidity-coverage": "^0.8.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.4"
+  }
+}
